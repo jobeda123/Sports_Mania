@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+}
+
+.leagueBoard{
+    margin:50px ;
+    display:grid;
+    grid-template-columns: auto auto auto;   
+}
+
+
+.leagueBody{
+    background-color: #435E55FF;
+}

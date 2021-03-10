@@ -1,0 +1,33 @@
+.leagueInfoCard{
+    width:50%;
+    border: 1px solid violet;
+    line-height: 40px;
+    padding-top: 50px;
+    padding-left: 120px;
+    font-size:20px;
+}
+
+.leagueInfoPic img{
+    width:400px;
+    padding-top: 40px;
+    padding-left: 200px;
+    padding-right:50px;
+    border: 1px solid red;
+}
+
+.card{
+    display:flex;
+    color:white;
+}
+
+.socialIcon{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.socialIcon img{
+    width:50px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+

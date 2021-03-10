@@ -1,0 +1,23 @@
+.leagueCart{
+    width:300px;
+    height:270px;
+    margin:30px;
+    background-color: #D64161FF;
+    text-align: center;
+    padding:20px;
+    line-height: 40px;
+    border-radius: 10px;
+}
+
+.leagueCart button{
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+    background-color:rgb(95, 216, 176);
+    cursor: pointer;
+}
+
+.leagueCart img{
+    width:100px;
+    height:100px;
+}
