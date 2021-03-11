@@ -3,16 +3,12 @@
     height:240px;
     text-align: center;
     padding-top: 35px;
-    background-image: url(../../pictures/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
-.backDetail img{
-    width:150px;
-}
 
 .bodyBack{
     background-color: #435E55FF;
@@ -29,4 +25,25 @@
 
 .leagueDescription{
     margin:20px 160px;
+}
+
+.socialIcon{
+    font-size:50px;
+    background-color: lightblue;
+}
+
+.socialIcon a{
+    padding: 20px;
+}
+
+#fb{
+    color: blue;
+}
+
+#tw{
+    color: rgb(51, 155, 216);
+}
+
+#yt{
+    color: red;
 }

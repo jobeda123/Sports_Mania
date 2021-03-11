@@ -7,7 +7,7 @@ import { faFlag, faVolleyballBall, faMapPin, faMale, faFemale } from '@fortaweso
 
 const LeagueInfo = (props) => {
     //console.log(props.singleLeague);
-    const {intFormedYear, strCountry, strSport, strGender, strLeague} = props.singleLeague;
+    const {intFormedYear, strCountry, strSport, strGender, strLeague, strBadge} = props.singleLeague;
     
     let groupPic;
     let groupIcon;
@@ -22,6 +22,9 @@ const LeagueInfo = (props) => {
     }
     return (
         <div className="card">
+            <div className="leagueLogo">
+                <img src={strBadge} alt="" />
+            </div>
             <div className="leagueInfoCard">
                 <h2>{strLeague}</h2>
                 <p><FontAwesomeIcon icon={faMapPin} /><strong> Founded: {intFormedYear}</strong></p>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './LeagueCard.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
 const LeagueCard = (props) => {
@@ -18,11 +18,11 @@ const LeagueCard = (props) => {
     },[idLeague]);
     
 
-    const {strBadge} = singeLeagueCart;
+    const {strLogo} = singeLeagueCart;
 
     return (
         <div className="leagueCart">
-            <img src={strBadge} alt=""/>
+            <img src={strLogo} alt=""/>
             <h2>{strLeague}</h2>
             <p>Sport Type: {strSport}</p> 
             <Link to={`/leagueDetail/id=${idLeague}`}>
