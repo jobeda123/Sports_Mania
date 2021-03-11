@@ -33,10 +33,10 @@ const LeagueDetail = () => {
                 </div>
 
                 <div className="leagueDescription">
-                    <p>{strDescriptionEN}</p>
+                    <p><strong>{strDescriptionEN}</strong></p>
                     <br/>  
                     <br/>
-                    <p>{strDescriptionEN}</p>  
+                    <p><strong>{strDescriptionEN}</strong></p> 
                 </div>
 
                 <div className="socialIcon">
