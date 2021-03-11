@@ -24,7 +24,8 @@
 
 .card{
     display:flex;
-    color:white;
+    color:#97BC62FF;
+    background-color: #2C5F2D;
     padding:40px;
 }
 
