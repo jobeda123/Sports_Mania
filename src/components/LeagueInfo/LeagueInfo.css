@@ -5,7 +5,7 @@
 
 .leagueInfoCard{
     width:40%;
-    border: 1px solid white;
+/*     border: 1px solid white; */
     line-height: 40px;
     padding: 0px 20px;
     margin: 0px 20px;
@@ -24,8 +24,8 @@
 
 .card{
     display:flex;
-    color:#97BC62FF;
-    background-color: #2C5F2D;
+    color:#2C5F2D;
+    background-color: #97BC62FF;
     padding:40px;
 }
 
